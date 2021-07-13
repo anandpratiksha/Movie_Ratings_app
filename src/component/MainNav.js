@@ -2,9 +2,10 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import BottomNavigation from '@material-ui/core/BottomNavigation';
 import BottomNavigationAction from '@material-ui/core/BottomNavigationAction';
-import FavoriteIcon from '@material-ui/icons/Favorite';
-import LocationOnIcon from '@material-ui/icons/LocationOn';
 import WhatshotIcon from '@material-ui/icons/Whatshot';
+import TheatersIcon from '@material-ui/icons/Theaters';
+import LiveTvIcon from '@material-ui/icons/LiveTv';
+import SearchIcon from '@material-ui/icons/Search';
 
 const useStyles = makeStyles({
     root: {
@@ -30,9 +31,9 @@ export default function SimpleBottomNavigation() {
             className={classes.root}
         >
             <BottomNavigationAction style={{ color: 'white' }} label="Trending" icon={<WhatshotIcon />} />
-            <BottomNavigationAction style={{ color: 'white' }} label="Favorites" icon={<FavoriteIcon />} />
-            <BottomNavigationAction style={{ color: 'white' }} label="Nearby" icon={<LocationOnIcon />} />
-            <BottomNavigationAction style={{ color: 'white' }} label="Nearby" icon={<LocationOnIcon />} />
+            <BottomNavigationAction style={{ color: 'white' }} label="Movies" icon={<TheatersIcon />} />
+            <BottomNavigationAction style={{ color: 'white' }} label="TV Series" icon={<LiveTvIcon />} />
+            <BottomNavigationAction style={{ color: 'white' }} label="Search" icon={<SearchIcon />} />
         </BottomNavigation>
     );
 }
