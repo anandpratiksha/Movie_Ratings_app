@@ -7,5 +7,28 @@
     background-color:#282c34;
     border-radius:10px;
     position: relative;
+    color:azure;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.media:hover{
+    background-color: rgba(204, 174, 43, 0.219);
+    color: black;
+}
+
+@media (max-width:550px){
+    .media{
+        width:50%;
+    }
+}
+
+.poster{
+    border-radius:10px;
+}
+
+.subTitle{
+    display: flex;
+    justify-content:space-between;
+    padding-bottom: 3px;
+    padding: 0 2px;
 }
