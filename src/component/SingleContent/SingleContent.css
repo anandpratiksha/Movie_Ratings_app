@@ -1,0 +1,11 @@
+.media{
+    display:flex;
+    flex-direction:column;
+    width:200px;
+    padding:5px;
+    margin: 5px 0;
+    background-color:#282c34;
+    border-radius:10px;
+    position: relative;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
