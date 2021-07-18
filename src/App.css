@@ -5,8 +5,8 @@
 
 .App{
   min-width:100vh;
-  background-color:azure;
-  color:black;
+  background-color:rgba(28, 100, 209, 0.733);
+  color:rgba(0, 0, 0, 0.452);
   padding-top: 130px;
   padding-bottom: 70px;
 }
